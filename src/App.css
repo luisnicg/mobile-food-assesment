@@ -1,58 +1,56 @@
-@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700');
-
-*, *:before, *:after {
-	box-sizing:border-box;
+#food-facility {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 90%;
+  margin: 0 auto;
 }
 
-body {
-	padding:24px;
-	font-family:'Source Sans Pro', sans-serif;
-	margin:0;
+#food-facility caption {
+  font-size: 32px;
+  padding: 10px;
+  font-weight:bolder;
 }
 
-h1,h2,h3,h4,h5,h6 {
-	margin:0;
+#food-facility thead button {
+  border: 0;
+  border-radius: none;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: inherit;
+  padding: 0.5em;
+  margin-bottom: 1px;
+  background-color: #04AA6D;
 }
 
-.container {
-	max-width: 1000px;
-	margin-right:auto;
-	margin-left:auto;
-	display:flex;
-	justify-content:center;
-	align-items:center;
-	min-height:100vh;
+#food-facility thead button.ascending::after {
+  content: '⬇';
+  display: inline-block;
+  margin-left: 1em;
 }
 
-.table {
-	width:100%;
-	border:1px solid #EEEEEE;
+#food-facility thead button.descending::after {
+  content: '⬆';
+  display: inline-block;
+  margin-left: 1em;
 }
 
-.table-header {
-	display:flex;
-	width:100%;
-	background:#000;
-	padding:(24px * 1.5) 0;
+#food-facility tbody tr td span {
+  cursor: pointer;
 }
 
-.table-row {
-	display:flex;
-	width:100%;
-	padding:(24px * 1.5) 0;
+#food-facility td, #food-facility th {
+  border: 1px solid #ddd;
+  padding: 8px;
 }
 
-.table-row:nth-of-type(odd) {
-  background:#EEEEEE;
-}
+#food-facility tr:nth-child(even){background-color: #f2f2f2;}
 
-.table-data, .header__item {
-	flex: 1 1 20%;
-	text-align:center;
-}
+#food-facility tr:hover {background-color: #ddd;}
 
-.header__item {
-	text-transform:uppercase;
-  color:white;
-  font-weight:600;
+#food-facility th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
 }

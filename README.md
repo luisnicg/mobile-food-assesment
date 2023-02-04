@@ -1,6 +1,20 @@
-# Getting Started with Create React App
+# Mobile Food Assessment
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The objective of this project ys to show the basic functionality of a React application.
+
+## Features
+
+* Build a HTML table based on CSV data.
+* Get CSV content.
+* Allows user to sort the table.
+* Display a tooltip with additional information.
+
+## To Do
+
+* Integrate SASS for styling the page.
+* Create a Web API to expose a JSON.
+* Create a pager and add filters.
+* Create components in a better way to make them reusables.
 
 ## Available Scripts
 
