@@ -39,7 +39,7 @@ class MobileFoodResource extends BaseController {
 
         if (isset($queryString['key'])) {
           $jsonObject = new JsonObject($response);
-          $result = $jsonObject->{"$[?(@.Applicant=='" . $queryString['key'] . "')]"}; 
+          $result = $jsonObject->{"$[?(@.FacilityType=='" . $queryString['key'] . "')]"}; 
           $response = json_encode($result);
         }
 

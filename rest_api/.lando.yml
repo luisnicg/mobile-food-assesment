@@ -6,3 +6,5 @@ services:
     webroot: web
     composer: []
     composer_version: '2.2.12'
+    config:
+      server: .lando/nginx.conf
