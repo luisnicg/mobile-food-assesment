@@ -1,0 +1,6 @@
+{
+    "require": {
+        "phpfastcache/phpfastcache": "^9.1",
+        "galbar/jsonpath": "^2.1"
+    }
+}

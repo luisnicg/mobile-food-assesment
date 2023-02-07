@@ -1,0 +1,8 @@
+name: assessment
+services:
+  appserver:
+    type: php:8.0
+    via: nginx
+    webroot: web
+    composer: []
+    composer_version: '2.2.12'
