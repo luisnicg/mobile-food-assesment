@@ -1,0 +1,56 @@
+#food-facility {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 90%;
+  margin: 0 auto;
+}
+
+#food-facility caption {
+  font-size: 32px;
+  padding: 10px;
+  font-weight:bolder;
+}
+
+#food-facility thead button {
+  border: 0;
+  border-radius: none;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: inherit;
+  padding: 0.5em;
+  margin-bottom: 1px;
+  background-color: #04AA6D;
+}
+
+#food-facility thead button.ascending::after {
+  content: '⬇';
+  display: inline-block;
+  margin-left: 1em;
+}
+
+#food-facility thead button.descending::after {
+  content: '⬆';
+  display: inline-block;
+  margin-left: 1em;
+}
+
+#food-facility tbody tr td span {
+  cursor: pointer;
+}
+
+#food-facility td, #food-facility th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#food-facility tr:nth-child(even){background-color: #f2f2f2;}
+
+#food-facility tr:hover {background-color: #ddd;}
+
+#food-facility th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
+}
