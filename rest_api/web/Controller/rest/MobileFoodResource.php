@@ -24,8 +24,7 @@ class MobileFoodResource extends BaseController {
 
     try {
       $response = '';
-      // if ($cached_data = $cache->get($cid)) {
-      if (FALSE) {
+      if ($cached_data = $cache->get($cid)) {
         $response = $cached_data->data;
       }
       else {
