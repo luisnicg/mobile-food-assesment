@@ -56,7 +56,7 @@ php /usr/local/bin/composer install
 * Create a pager and add filters.
 * Create components in a better way to make them reusables.
 
-## RECT
+## REACT
 ### Available Scripts
 
 In the project directory, you can run:
